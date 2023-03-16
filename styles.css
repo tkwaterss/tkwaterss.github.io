@@ -74,17 +74,17 @@ a {
     text-decoration: none;
 }
 button {
-    background-color: beige;
-    border: 1px black solid;
+    background-color: rgb(227, 255, 246);
+    border: 3px aquamarine solid;
     border-radius: 2px;
     font-size: 1.25em;
 }
 button:hover {
-    background-color: blanchedalmond;
+    background-color: rgb(181, 253, 229);
 }
 
 /* Home Page Styling */
-#home {
+#home-section {
     display: flex;
     justify-content: space-between;
 }
@@ -115,11 +115,15 @@ button:hover {
 }
 .social {
     height: 50px;
-    padding: 25px 0;
+    margin: 25px 0;
+}
+.social:hover {
+    background-color: rgb(227, 255, 246);
+    box-shadow: 0 0 5px 5px aquamarine;
 }
 
 /* Project Page Styling */
-#projects {
+#projects-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,8 +152,11 @@ button:hover {
 #projects-right > h5 {
     margin-bottom: 2%;
 }
+#projects-right > h5 > a {
+    color: rgb(12, 44, 187);
+}
 #projects-right > h5 > a:hover {
-    color:red;
+    color:rgb(12, 212, 162);
 }
 #projects-right > p {
     margin-bottom: 3%;
@@ -159,4 +166,42 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+/* About Page Styling */
+#about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about-left {
+    width: 60%;
+}
+#about-right {
+    width: 30%;
+}
+#head-shot {
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 0 0 50px 10px grey; 
+}
+#about-me{
+    /* border:solid; */
+}
+#skills-section {
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills-div {
+    width: 28%;
+    height: 100%;
+}
+.about-me {
+    font-size: 1.2em;
+    text-align: justify;
+}
+.tech-skills, #soft-skills {
+    list-style-type:square;
+    list-style-position: inside;
 }
