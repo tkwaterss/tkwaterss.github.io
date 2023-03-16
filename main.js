@@ -5,7 +5,7 @@ const views = {
                 <div id="introduction">
                     <h4>Hi, my name is,</h4>
                     <h1>Tobin Waters.</h1>
-                    <p>I am a full stack developer specializing in React and Javascript. I am focused on building functional business focused applications.</p>
+                    <p>I am a full stack developer specializing in React and Javascript. I am interested in building functional business focused applications.</p>
                 </div>
                 <button onclick="viewProjects()" id="projects-btn">Check out my projects!</button>
             </section>
