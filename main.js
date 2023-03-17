@@ -83,8 +83,16 @@ const views = {
         </section>
     `,
     "contact" : `
-        <section id="contact" class="section">
-            <h2>Contact</h2>
+        <section id="contact-section" class="section">
+            <section id="contact-left">
+                <h2>Get In Touch!</h2>
+                <p>I am open to work and will be graduating from Dev Mountain in May of 2023. Feel free to reach me through email or any of the links below.</p>
+            </section>
+            <h5>tkwaterss@gmail.com</h5>
+            <section id="contact-right">
+                <a href="https://www.linkedin.com/in/tobinkwaters/" target="_blank"><img class="social" src="images/computer-icons-linkedin-logo-linkedin-white-f64d35e9af265edf5af39fb44e00d2b7.png"></a>
+                <a href="https://github.com/tkwaterss" target="_blank"><img class="social" src="images/computer-icons-download-github-clip-art-github-icon-f6a1ed148786279bcd1d9dbffc0432e3.png"></a>
+            </section>
         </section>
     `
 }
