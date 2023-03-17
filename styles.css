@@ -33,7 +33,7 @@ nav {
     color: #012877;
 }
 .header-links:hover {
-    color: #8eb4ff;
+    color: #B1BBF4;
 }
 
 main {
@@ -75,7 +75,7 @@ a {
     text-decoration: none;
 }
 button {
-    background-color: #cddeff;
+    background-color: #B1BBF4;
     border: 3px #012877 solid;
     border-radius: 2px;
     font-size: 1.25em;
