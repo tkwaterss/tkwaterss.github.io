@@ -69,8 +69,8 @@ const views = {
                 <section id="projects-right">
                     <h3>Bike Bandits</h3>
                     <div id="project-links-container">
-                        <h5><a target="_blank" href="http://3.144.89.35">Visit the App</a></h5>
                         <h5><a target="_blank" href="https://clipchamp.com/watch/Qu9ZitLVEID">Watch a Demo</a></h5>
+                        <h5><a target="_blank" href="http://3.144.89.35">Visit the App</a></h5>
                         <h5><a target="_blank" href="https://github.com/tkwaterss/Bike_Bandits">See the Code</a></h5>
                     </div>
                     <p>I built this app to help a bike shop manage service tickets. Tickets can be viewed, created, updated, and deleted on a user friendly platform.</p>
