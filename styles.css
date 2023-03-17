@@ -34,6 +34,7 @@ nav {
 }
 .header-links:hover {
     color: #B1BBF4;
+    cursor: pointer;
 }
 
 main {
@@ -82,6 +83,7 @@ button {
 }
 button:hover {
     background-color: rgb(85,119,253);
+    cursor: pointer;
 }
 
 /* Home Page Styling */
