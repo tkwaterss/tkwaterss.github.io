@@ -162,6 +162,7 @@ button:hover {
 }
 #projects-right > p {
     margin-bottom: 3%;
+    text-align: justify;
 }
 
 .project-skills {

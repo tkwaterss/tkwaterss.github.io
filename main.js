@@ -74,9 +74,9 @@ const views = {
                         <li>Javascript</li>
                         <li>HTML</li>
                         <li>CSS</li>
+                        <li>PostgreSQL</li>
                         <li>Axios</li>
                         <li>Express</li>
-                        <li>Sequelize</li>
                     </ol>
                 </section>
             </section>
