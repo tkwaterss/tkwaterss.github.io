@@ -10,8 +10,8 @@ const views = {
                 <button onclick="viewProjects()" id="projects-btn">Check out my projects!</button>
             </section>
             <section id="home-right">
-                <a href="https://www.linkedin.com/in/tobinkwaters/" target="_blank"><img class="social" src="images/computer-icons-linkedin-logo-linkedin-white-f64d35e9af265edf5af39fb44e00d2b7.png"></a>
-                <a href="https://github.com/tkwaterss" target="_blank"><img class="social" src="images/computer-icons-download-github-clip-art-github-icon-f6a1ed148786279bcd1d9dbffc0432e3.png"></a>
+                <a href="https://www.linkedin.com/in/tobinkwaters/" target="_blank"><img class="social" src="images/linkedinLogo.png"></a>
+                <a href="https://github.com/tkwaterss" target="_blank"><img class="social" src="images/githubLogo.png"></a>
             </section>
         </section>
     `,
@@ -59,16 +59,20 @@ const views = {
     `,
     "projects": `
         <section id="projects-section" class="section">
-            <h2>My Projects</h2>
+        <h2>My Projects</h2>
             <section class="project">
                 <section id="projects-left">
-                    <img id="bike-bandits-scrnshot" src="./images/bike-bandits-screenshot.png">
+                    <a target="_blank" href="http://3.144.89.35" alt="screenshot of Bike Bandits">
+                        <img id="bike-bandits-scrnshot" src="./images/bike-bandits-screenshot.png">
+                    </a>
                 </section>
                 <section id="projects-right">
                     <h3>Bike Bandits</h3>
-                    <h5><a target="_blank" href="http://3.144.89.35">Visit the App</a></h5>
-                    <h5><a target="_blank" href="https://clipchamp.com/watch/Qu9ZitLVEID">Watch a Demo</a></h5>
-                    <h5><a target="_blank" href="https://github.com/tkwaterss/Bike_Bandits">See the Code</a></h5>
+                    <div id="project-links-container">
+                        <h5><a target="_blank" href="http://3.144.89.35">Visit the App</a></h5>
+                        <h5><a target="_blank" href="https://clipchamp.com/watch/Qu9ZitLVEID">Watch a Demo</a></h5>
+                        <h5><a target="_blank" href="https://github.com/tkwaterss/Bike_Bandits">See the Code</a></h5>
+                    </div>
                     <p>I built this app to help a bike shop manage service tickets. Tickets can be viewed, created, updated, and deleted on a user friendly platform.</p>
                     <ol class="project-skills">
                         <li>Javascript</li>
@@ -90,8 +94,8 @@ const views = {
             </section>
             <h5>tkwaterss@gmail.com</h5>
             <section id="contact-right">
-                <a href="https://www.linkedin.com/in/tobinkwaters/" target="_blank"><img class="social" src="images/computer-icons-linkedin-logo-linkedin-white-f64d35e9af265edf5af39fb44e00d2b7.png"></a>
-                <a href="https://github.com/tkwaterss" target="_blank"><img class="social" src="images/computer-icons-download-github-clip-art-github-icon-f6a1ed148786279bcd1d9dbffc0432e3.png"></a>
+                <a href="https://www.linkedin.com/in/tobinkwaters/" target="_blank"><img class="social" src="images/linkedinLogo.png"></a>
+                <a href="https://github.com/tkwaterss" target="_blank"><img class="social" src="images/githubLogo.png"></a>
             </section>
         </section>
     `

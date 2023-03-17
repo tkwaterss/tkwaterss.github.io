@@ -10,11 +10,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 40px 0 0;
-    height: 100px;
+    height: 80px;
     width: 100vw;
     /* useful tool to keep box sizes constant with padding and such */
     box-sizing: border-box;
-    background-color: aquamarine;
+    background-color: rgb(85,119,253);
     z-index: 1;
 }
 #header-logo {
@@ -30,10 +30,10 @@ nav {
 }
 .header-links {
     font-size: 1.5em;
-    color: black;
+    color: #012877;
 }
 .header-links:hover {
-    color: teal;
+    color: #8eb4ff;
 }
 
 main {
@@ -48,12 +48,11 @@ main {
 .section {
     width: 80%;
     margin: 0 auto;
-    /* border:solid; */
 }
 h1 {
     font-size: 5em;
     font-weight: 900;
-    color: teal;
+    color: #012877;
 }
 h2 {
     font-size: 3em;
@@ -76,13 +75,13 @@ a {
     text-decoration: none;
 }
 button {
-    background-color: rgb(227, 255, 246);
-    border: 3px aquamarine solid;
+    background-color: #cddeff;
+    border: 3px #012877 solid;
     border-radius: 2px;
     font-size: 1.25em;
 }
 button:hover {
-    background-color: rgb(181, 253, 229);
+    background-color: rgb(85,119,253);
 }
 
 /* Home Page Styling */
@@ -120,8 +119,9 @@ button:hover {
     margin: 25px 0;
 }
 .social:hover {
+    border-radius: 50%;
     background-color: rgb(227, 255, 246);
-    box-shadow: 0 0 5px 5px aquamarine;
+    box-shadow: 0 0 10px 5px rgb(85,119,253);
 }
 
 /* Project Page Styling */
@@ -142,26 +142,32 @@ button:hover {
 }
 #bike-bandits-scrnshot {
     width: 100%;
+    border-radius: 40px;
+}
+#bike-bandits-scrnshot:hover {
+    box-shadow: 0 0 50px 10px #adc7fa; 
 }
 
 #projects-right {
-    width: 55%;
+    width: 50%;
     text-align: right;
 }
 #projects-right > h3 {
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
-#projects-right > h5 {
-    margin-bottom: 2%;
+#project-links-container {
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
 }
-#projects-right > h5 > a {
-    color: rgb(12, 44, 187);
+#project-links-container > h5 > a {
+    color: #012877;
 }
-#projects-right > h5 > a:hover {
-    color:rgb(12, 212, 162);
+#project-links-container > h5 > a:hover {
+    color:rgb(85,119,253);
 }
 #projects-right > p {
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     text-align: justify;
 }
 
@@ -186,7 +192,7 @@ button:hover {
 #head-shot {
     width: 100%;
     border-radius: 40px;
-    box-shadow: 0 0 50px 10px grey; 
+    box-shadow: 0 0 50px 10px #adc7fa; 
 }
 #about-me{
     /* border:solid; */
@@ -226,7 +232,7 @@ button:hover {
 #contact-right {
     display: flex;
     justify-content: space-evenly;
-    width: 40%;
+    width: 25%;
 }
 #contact-left > h2 {
     margin-bottom: 5%;
@@ -236,6 +242,6 @@ button:hover {
 }
 #contact-section > h5 {
     font-size: 1.5em;
-    color: teal
+    color: #01349b
 
 }
