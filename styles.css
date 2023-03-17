@@ -194,9 +194,6 @@ button:hover {
     border-radius: 40px;
     box-shadow: 0 0 50px 10px #adc7fa; 
 }
-#about-me{
-    /* border:solid; */
-}
 #skills-section {
     height: 20%;
     display: flex;
