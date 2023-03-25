@@ -1,3 +1,5 @@
+//reference site https://brittanychiang.com/
+
 const views = {
     "home": `
         <section id="home-section" class="section">
