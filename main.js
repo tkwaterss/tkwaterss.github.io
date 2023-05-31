@@ -62,31 +62,54 @@ const views = {
     "projects": `
         <section id="projects-section" class="section">
         <h2>My Projects</h2>
-            <section class="project">
-                <section id="projects-left">
-                    <a target="_blank" href="http://3.144.89.35" alt="screenshot of Bike Bandits">
-                        <img id="bike-bandits-scrnshot" src="./images/bike-bandits-screenshot.png">
-                    </a>
-                </section>
-                <section id="projects-right">
-                    <h3>Bike Bandits</h3>
-                    <div id="project-links-container">
-                        <h5><a target="_blank" href="https://clipchamp.com/watch/Qu9ZitLVEID">Watch a Demo</a></h5>
-                        <h5><a target="_blank" href="http://3.144.89.35">Visit the App</a></h5>
-                        <h5><a target="_blank" href="https://github.com/tkwaterss/Bike_Bandits">See the Code</a></h5>
-                    </div>
-                    <p>I built this app to help a bike shop manage service tickets. Tickets can be viewed, created, updated, and deleted on a user friendly platform.</p>
-                    <ol class="project-skills">
-                        <li>Javascript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>PostgreSQL</li>
-                        <li>Axios</li>
-                        <li>Express</li>
-                    </ol>
-                </section>
+        <section class="project">
+            <section id="projects-left">
+                <a target="_blank" href="https://bicycle-bandits.herokuapp.com/" alt="screenshot of Bike Bandits">
+                    <img id="bike-bandits-scrnshot" src="./images/Screenshot 2023-05-31 161131.png">
+                </a>
+            </section>
+            <section id="projects-right">
+                <h3>Bicycle Bandits</h3>
+                <div id="project-links-container">
+                    <h5><a target="_blank" href="https://youtu.be/Rw1oUMVaRDo">Watch a Demo</a></h5>
+                    <h5><a target="_blank" href="https://bicycle-bandits.herokuapp.com/">Visit the App</a></h5>
+                    <h5><a target="_blank" href="https://github.com/tkwaterss/Bicycle_Bandits">See the Code</a></h5>
+                </div>
+                <p>I built this app to help a bike shop manage service tickets. Tickets can be viewed, created, updated, and deleted on a user friendly platform.</p>
+                <ol class="project-skills">
+                    <li>React</li>
+                    <li>Javascript</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>Sequelize</li>
+                    <li>Axios</li>
+                </ol>
             </section>
         </section>
+        <section class="project">
+            <section id="projects-left">
+                <a target="_blank" href="https://github.com/tkwaterss/Cycle_Mate" alt="Screenshot of Cycle Mate">
+                    <img id="bike-bandits-scrnshot" src="./images/bike-bandits-screenshot.png">
+                </a>
+            </section>
+            <section id="projects-right">
+                <h3>Cycle Mate</h3>
+                <div id="project-links-container">
+                    <h5><a target="_blank" href="https://clipchamp.com/watch/Qu9ZitLVEID">Watch a Demo</a></h5>
+                    <h5><a target="_blank" href="https://github.com/tkwaterss/Cycle_Mate">See the Code</a></h5>
+                </div>
+                <p>I built this app to help a bike shop manage service tickets. Tickets can be viewed, created, updated, and deleted on a user friendly platform.</p>
+                <ol class="project-skills">
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PostgreSQL</li>
+                    <li>Axios</li>
+                    <li>Express</li>
+                </ol>
+            </section>
+        </section>
+    </section>
     `,
     "contact" : `
         <section id="contact-section" class="section">
