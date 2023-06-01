@@ -7,7 +7,7 @@ const views = {
                 <div id="introduction">
                     <h4>Hi, my name is,</h4>
                     <h1>Tobin Waters.</h1>
-                    <p>I am a full stack developer specializing in React and Javascript. I am interested in building functional business focused applications.</p>
+                    <p>I am a full-stack React / Node.js developer based in Salt Lake City with a passion for building functional business applications.</p>
                 </div>
                 <button onclick="viewProjects()" id="projects-btn">Check out my projects!</button>
             </section>
@@ -22,25 +22,29 @@ const views = {
             <section id="about-left">
                 <section id="about-me">
                     <h4>About Me</h4><br>
-                    <p class="about-me">Hello, my name is Tobin and I enjoy building apps with a purpose. I am early on in my career but have found myself drawn towards building business ready applications. My first project was a bike shop service management app. It is not quite business ready yet, but I plan to fix that as I continue to learn. I am excited to build more functional apps to test my skills and eventually provide value to a business.</p><br>
-                    <p class="about-me">Outside of learning to code I love to get into the mountains. I live in Salt Lake City and have some of the best outdoors access in the world. I spend most of my afternoons rock-climbing, mountain biking, or hiking in the Wasatch Mountains. I often spend my weekends down in the desert exploring an amazing sandstone landscape.</p><br>
+                    <p class="about-me">Hello, my name is Tobin and I am a full-stack React/Node developer based in Salt Lake City. I am passionate about problem-solving and constantly strive to expand my skill set to find the most effective solutions. My professional experience has exposed me to a wide range of problem-solving tactics, giving me a unique perspective for approaching problems. I enjoy applying this passion towards building functional business applications while adhering to the latest industry standards and best practices.</p><br>
+                    <p class="about-me">In addition to my work in development, I enjoy exploring the mountains. I live in Salt Lake City, which provides some of the best outdoor access in the world. Most afternoons, I can be found rock climbing, mountain biking, or hiking in the Wasatch Mountains. On weekends, I often explore the beautiful sandstone landscape of the southern Utah desert.</p><br>
                 </section>
                 <h5>My Skills</h5><br>
                 <section id="skills-section">
                     <div class="skills-div">
                         <ul class="tech-skills">
                             <li>Javascript</li>
+                            <li>React</li>
+                            <li>Redux</li>
+                            <li>Node.js</li>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>PostgreSQL</li>
                         </ul>
                     </div>
                     <div class="skills-div">
                         <ul class="tech-skills">
                             <li>Axios</li>
                             <li>Express</li>
+                            <li>PostgreSQL</li>
                             <li>Sequelize</li>
-                            <li>AWS EC2</li>
+                            <li>Heroku</li>
+                            <li>AWS</li>
                         </ul>
                     </div>
                     <div class="skills-div">
@@ -61,44 +65,70 @@ const views = {
     `,
     "projects": `
         <section id="projects-section" class="section">
-        <h2>My Projects</h2>
-        <section class="project">
-            <section id="projects-left">
-                <a target="_blank" href="https://bicycle-bandits.herokuapp.com/" alt="screenshot of Bike Bandits">
-                    <img id="bike-bandits-scrnshot" src="./images/Screenshot 2023-05-31 161131.png">
-                </a>
-            </section>
-            <section id="projects-right">
-                <h3>Bicycle Bandits</h3>
-                <div id="project-links-container">
-                    <h5><a target="_blank" href="https://youtu.be/Rw1oUMVaRDo">Watch a Demo</a></h5>
-                    <h5><a target="_blank" href="https://bicycle-bandits.herokuapp.com/">Visit the App</a></h5>
-                    <h5><a target="_blank" href="https://github.com/tkwaterss/Bicycle_Bandits">See the Code</a></h5>
-                </div>
-                <p>I built this app to help a bike shop manage service tickets. Tickets can be viewed, created, updated, and deleted on a user friendly platform.</p>
-                <ol class="project-skills">
+            <h2>My Projects</h2>
+            <div id="project-divider"></div>
+            <section class="project">
+                <section id="projects-left">
+                    <a
+                    target="_blank"
+                    href="https://bicycle-bandits.herokuapp.com/"
+                    alt="screenshot of Bike Bandits"
+                    >
+                    <img
+                        id="bike-bandits-scrnshot"
+                        src="./images/Screenshot 2023-06-01 125426.png"
+                    />
+                    </a>
+                </section>
+                <section id="projects-right">
+                    <h3>Bicycle Bandits</h3>
+                    <div id="project-links-container">
+                    <h5>
+                        <a target="_blank" href="https://youtu.be/Rw1oUMVaRDo"
+                        >Watch a Demo</a
+                        >
+                    </h5>
+                    <h5>
+                        <a target="_blank" href="https://bicycle-bandits.herokuapp.com/"
+                        >Visit the App</a
+                        >
+                    </h5>
+                    <h5>
+                        <a
+                        target="_blank"
+                        href="https://github.com/tkwaterss/Bicycle_Bandits"
+                        >See the Code</a
+                        >
+                    </h5>
+                    </div>
+                    <p>
+                    A bicycle shop management app combinging services for both employees and customers. The app provides service ticket management for employees as well as online shopping and service transparency for customers. This app took lessons learned from developing Cycle Mate and improved upon those elements as well as adding numerous additionaly features.
+                    </p>
+                    <ol class="project-skills">
                     <li>React</li>
                     <li>Javascript</li>
                     <li>Node.js</li>
                     <li>Express</li>
                     <li>Sequelize</li>
-                    <li>Axios</li>
-                </ol>
+                    </ol>
+                </section>
             </section>
-        </section>
+        <div id="project-divider"></div>
         <section class="project">
-            <section id="projects-left">
-                <a target="_blank" href="https://github.com/tkwaterss/Cycle_Mate" alt="Screenshot of Cycle Mate">
-                    <img id="bike-bandits-scrnshot" src="./images/bike-bandits-screenshot.png">
-                </a>
-            </section>
-            <section id="projects-right">
+            <section id="projects-right-alt">
                 <h3>Cycle Mate</h3>
                 <div id="project-links-container">
-                    <h5><a target="_blank" href="https://clipchamp.com/watch/Qu9ZitLVEID">Watch a Demo</a></h5>
-                    <h5><a target="_blank" href="https://github.com/tkwaterss/Cycle_Mate">See the Code</a></h5>
+                    <h5>
+                    <a
+                        target="_blank"
+                        href="https://github.com/tkwaterss/Cycle_Mate"
+                        >See the Code</a
+                    >
+                    </h5>
                 </div>
-                <p>I built this app to help a bike shop manage service tickets. Tickets can be viewed, created, updated, and deleted on a user friendly platform.</p>
+                <p>
+                    Cycle Mate is a service tracking app. This app is designed to help a bike shop manage service tickets efficiently. Tickets can be viewed, created, updated, and deleted on a user friendly platform.
+                </p>
                 <ol class="project-skills">
                     <li>Javascript</li>
                     <li>HTML</li>
@@ -108,14 +138,28 @@ const views = {
                     <li>Express</li>
                 </ol>
             </section>
+            <section id="projects-left">
+                <a
+                    target="_blank"
+                    href="https://github.com/tkwaterss/Cycle_Mate"
+                    alt="Screenshot of Cycle Mate"
+                >
+                <img
+                    id="bike-bandits-scrnshot"
+                    src="./images/bike-bandits-screenshot.png"
+                />
+                </a>
+            </section>
         </section>
-    </section>
+        <div id="project-divider"></div>
+        </section>
+        </section>
     `,
     "contact" : `
         <section id="contact-section" class="section">
             <section id="contact-left">
                 <h2>Get In Touch!</h2>
-                <p>I am open to work and will be graduating from Dev Mountain in May of 2023. Feel free to reach me through email or any of the links below.</p>
+                <p>I am actively searching for new employment opportunities. Feel free to reach me through email or the links below.</p>
             </section>
             <h5>tkwaterss@gmail.com</h5>
             <section id="contact-right">
