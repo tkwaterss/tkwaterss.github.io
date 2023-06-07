@@ -102,7 +102,7 @@ const views = {
                     </h5>
                     </div>
                     <p>
-                    A bicycle shop management app combinging services for both employees and customers. The app provides service ticket management for employees as well as online shopping and service transparency for customers. This app took lessons learned from developing Cycle Mate and improved upon those elements as well as adding numerous additionaly features.
+                    (In Progress) A bicycle shop management app combinging services for both employees and customers. The app provides service ticket management for employees as well as online shopping and service transparency for customers. This app took lessons learned from developing Cycle Mate and improved upon those elements as well as adding numerous additional features. New features are still being added regularly.
                     </p>
                     <ol class="project-skills">
                     <li>React</li>
