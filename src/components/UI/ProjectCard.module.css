@@ -1,0 +1,41 @@
+.projectCard {
+  height: 600px;
+  width: 400px;
+  background: #F8F8F8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 4px;
+}
+.projectBanner {
+  height: 160px;
+  width: 400px;
+  border-radius: 4px 4px 0 0;
+}
+.projectCard h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.projectCard p {
+  font-size: .9em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 435px;
+  padding: 10px 20px;
+}
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+.linksBtn {
+  padding: 10px 20px;
+  font-size: 1em;
+}
