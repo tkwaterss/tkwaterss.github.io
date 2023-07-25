@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
           <Textarea
             id="message"
-            rows="6"
+            rows="4"
             cols="80"
             name="message"
             placeholder="message"
