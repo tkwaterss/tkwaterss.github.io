@@ -12,34 +12,40 @@ const Header = () => {
   };
   return (
     <header>
-      <nav>
-        <ul className={classes.navContainer}>
-          <li>
-            <NavLink style={activeStyle} to="/">
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink style={activeStyle} to="/projects">
-              Projects
-            </NavLink>
-          </li>
-          <li>
-            <NavLink style={activeStyle} to="/about">
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink style={activeStyle} to="/skills">
-              Skills
-            </NavLink>
-          </li>
-          <li>
-            <NavLink style={activeStyle} to="/contact">
-              Contact
-            </NavLink>
-          </li>
-        </ul>
+      <nav role="navigation">
+        <div className={classes.menuToggle}>
+          <input  className={classes.mobileMenu}type="checkbox" />
+          <span className={classes.mobileMenu}></span>
+          <span className={classes.mobileMenu}></span>
+          <span className={classes.mobileMenu}></span>
+          <ul className={classes.navContainer}>
+            <li>
+              <NavLink style={activeStyle} to="/">
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink style={activeStyle} to="/projects">
+                Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink style={activeStyle} to="/about">
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink style={activeStyle} to="/skills">
+                Skills
+              </NavLink>
+            </li>
+            <li>
+              <NavLink style={activeStyle} to="/contact">
+                Contact
+              </NavLink>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );

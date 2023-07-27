@@ -1,12 +1,24 @@
-.section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 60%;
-  margin: 0 auto;
+/** Desktop Styling */
+
+@media screen and (min-width: 800px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .aboutMe {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: justify;
+  }
 }
-.aboutMe {
-  font-size: 1.1em;
-  font-weight: bold;
-  text-align: justify;
+
+/** Mobile Styling */
+
+@media screen and (max-width: 800px) {
+  section {
+    border: solid;
+  }
 }

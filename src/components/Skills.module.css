@@ -1,63 +1,76 @@
-.section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  margin: 0 auto;
-}
-.gridContainer {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 40px;
-  grid-template-rows: auto;
-}
-.react {
-  grid-column: 1;
-  grid-row: 1;
-}
-.redux {
-  grid-column: 2;
-  grid-row: 1;
-}
-.nodeJS {
-  grid-column: 3;
-  grid-row: 1;
-}
-.postgreSQL {
-  grid-column: 1;
-  grid-row: 2;
-}
-.sequelize {
-  grid-column: 2;
-  grid-row: 2;
-}
-.javascript {
-  grid-column: 3;
-  grid-row: 2;
-}
-.html {
-  grid-column: 1;
-  grid-row: 3;
-}
-.css {
-  grid-column: 2;
-  grid-row: 3;
-}
-.postman {
-  grid-column: 3;
-  grid-row: 3;
+/** Desktop Styling */
+
+@media screen and (min-width: 800px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+    grid-template-rows: auto;
+  }
+  .react {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .redux {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .nodeJS {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .postgreSQL {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .sequelize {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .javascript {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .html {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .css {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .postman {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  
+  .iconContainer {
+    height: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon:hover {
+    transition: all .15s ease-in-out;
+    cursor: pointer;
+    border: 4px solid #0128778f;
+    border-radius: 4px;
+  }
+  
 }
 
-.iconContainer {
-  height: 100%;
-  aspect-ratio: 1/1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.icon:hover {
-  transition: all .15s ease-in-out;
-  cursor: pointer;
-  border: 4px solid #0128778f;
-  border-radius: 4px;
+/** Mobile Styling */
+
+@media screen and (max-width: 800px) {
+  section {
+    border: solid;
+  }
 }

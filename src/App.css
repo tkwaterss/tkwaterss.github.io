@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -21,42 +22,85 @@ html {
 
 body {
   font-family: 'Montserrat';
-  min-width: 800px;
   color: #050726;
   background-color: #F2F2F2;
   scroll-behavior: smooth;
 }
-main {
-  min-height: calc(100vh - 120px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+
+/** Desktop Styling */
+
+@media screen and (min-width: 800px) {
+  main {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #012877;
+  }
+  h2 {
+    font-size: 3em;
+    font-weight: 650;
+  }
+  h3 {
+    font-size: 2.5em;
+    font-weight: 550;
+  }
+  h4 {
+    font-size: 1.75em;
+  }
+  h5{
+    font-size: 1.25em;
+  }
+  p {
+    font-size: 1.1em;
+    line-height: 1.75em;
+  }
+  a {
+    text-decoration: none;
+  }
 }
-h1 {
-  font-size: 4em;
-  font-weight: bold;
-  color: #012877;
-}
-h2 {
-  font-size: 3em;
-  font-weight: 650;
-}
-h3 {
-  font-size: 2.5em;
-  font-weight: 550;
-}
-h4 {
-  font-size: 1.75em;
-}
-h5{
-  font-size: 1.25em;
-}
-p {
-  font-size: 1.1em;
-  line-height: 1.75em;
-}
-a {
-  text-decoration: none;
+
+/** Mobile Styling */
+
+@media screen and (max-width: 800px) {
+  main {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #012877;
+  }
+  h2 {
+    font-size: 3em;
+    font-weight: 650;
+  }
+  h3 {
+    font-size: 2.5em;
+    font-weight: 550;
+  }
+  h4 {
+    font-size: 1.75em;
+  }
+  h5{
+    font-size: 1.25em;
+  }
+  p {
+    font-size: 1.1em;
+    line-height: 1.75em;
+  }
+  a {
+    text-decoration: none;
+  }
 }
