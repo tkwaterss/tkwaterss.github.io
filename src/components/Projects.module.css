@@ -1,21 +1,24 @@
 /** Desktop Styling */
-.section {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 40px;
-  flex-wrap: wrap;
-  width: 96%;
-}
 
 @media screen and (min-width: 800px) {
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 96%;
+  }
   
 }
 
 /** Mobile Styling */
 
 @media screen and (max-width: 800px) {
-  section {
-    border: solid;
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
   }
 }

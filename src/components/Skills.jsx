@@ -21,9 +21,10 @@ const Skills = () => {
             href="https://www.w3schools.com/whatis/whatis_react.asp"
             rel="noopener noreferrer"
             target="_blank"
-          >
+            >
             <BiLogoReact className={classes.icon} size="5rem" color="#012877" />
           </a>
+          <p>React</p>
         </div>
         <div className={`${classes.redux} ${classes.iconContainer}`}>
           <a
@@ -33,6 +34,7 @@ const Skills = () => {
           >
             <BiLogoRedux className={classes.icon} size="5rem" color="#012877" />
           </a>
+          <p>Redux</p>
         </div>
         <div className={`${classes.postgreSQL} ${classes.iconContainer}`}>
           <a
@@ -46,6 +48,7 @@ const Skills = () => {
               color="#012877"
             />
           </a>
+          <p>PostgreSQL</p>
         </div>
         <div className={`${classes.nodeJS} ${classes.iconContainer}`}>
           <a
@@ -59,6 +62,7 @@ const Skills = () => {
               color="#012877"
             />
           </a>
+          <p>Node.js</p>
         </div>
         <div className={`${classes.javascript} ${classes.iconContainer}`}>
           <a
@@ -72,6 +76,7 @@ const Skills = () => {
               color="#012877"
             />
           </a>
+          <p>Javascript</p>
         </div>
         <div className={`${classes.html} ${classes.iconContainer}`}>
           <a
@@ -81,6 +86,7 @@ const Skills = () => {
           >
             <BiLogoHtml5 className={classes.icon} size="5rem" color="#012877" />
           </a>
+          <p>HTML5</p>
         </div>
         <div className={`${classes.css} ${classes.iconContainer}`}>
           <a
@@ -90,6 +96,7 @@ const Skills = () => {
           >
             <BiLogoCss3 className={classes.icon} size="5rem" color="#012877" />
           </a>
+          <p>CSS3</p>
         </div>
         <div className={`${classes.sequelize} ${classes.iconContainer}`}>
           <a
@@ -99,6 +106,7 @@ const Skills = () => {
           >
             <SiSequelize className={classes.icon} size="5rem" color="#012877" />
           </a>
+          <p>Sequelize</p>
         </div>
         <div className={`${classes.git} ${classes.iconContainer}`}>
           <a
@@ -108,6 +116,7 @@ const Skills = () => {
           >
             <BiLogoGit className={classes.icon} size="5rem" color="#012877" />
           </a>
+          <p>Git</p>
         </div>
       </div>
     </section>

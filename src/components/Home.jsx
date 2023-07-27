@@ -10,7 +10,7 @@ const Home = () => {
       <div className={classes.homeLeft}>
         <div className={classes.introduction}>
           <h4>Hi, my name is,</h4>
-          <h1>Tobin Waters.</h1>
+          <h1>Tobin Waters</h1>
           <h2>Full Stack Engineer</h2>
           <p>Currently based out of Salt Lake City, Utah</p>
           <p>I specialize in building single page React Applications</p>

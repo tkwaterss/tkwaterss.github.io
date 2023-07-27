@@ -39,3 +39,14 @@
   padding: 10px 20px;
   font-size: 1em;
 }
+
+/** Mobile Styling */
+
+@media screen and (max-width: 800px) {
+  .projectCard {
+    width: 94vw;
+  }
+  .projectBanner {
+    width: 94vw;
+  }
+}

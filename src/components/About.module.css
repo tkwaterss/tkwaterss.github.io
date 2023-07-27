@@ -18,7 +18,5 @@
 /** Mobile Styling */
 
 @media screen and (max-width: 800px) {
-  section {
-    border: solid;
-  }
+  
 }

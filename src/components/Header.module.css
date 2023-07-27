@@ -87,7 +87,7 @@
     height: 2px;
     margin-bottom: 5px;
     position: relative;
-    background: #ffffff;
+    background: #F2F2F2;
     border-radius: 3px;
     z-index: 1;
     transform-origin: 5px 0px;
@@ -121,13 +121,15 @@
     display: block;
     list-style: none;
     position: absolute;
-    width: 180px;
+    font-size: 1.5em;
+    width: 240px;
     height: 400px;
     box-shadow: 0 0 10px #85888C;
     margin: -50px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    background-color: #F5F6FA;
+    background-color: #F2F2F2;
+    border-radius: 4px;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);

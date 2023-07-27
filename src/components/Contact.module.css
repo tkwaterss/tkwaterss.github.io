@@ -36,7 +36,21 @@
 /** Mobile Styling */
 
 @media screen and (max-width: 800px) {
-  section {
-    border: solid;
+  .contactForm {
+    max-width: 400px;
+  }
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .inputsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
