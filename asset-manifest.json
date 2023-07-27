@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5252996.css",
+    "main.css": "/static/css/main.9ae65821.css",
     "main.js": "/static/js/main.1fbc6e97.js",
     "static/media/River-Profile.jpg": "/static/media/River-Profile.353361366a9a2e4b5c65.jpg",
     "static/media/Cycle-Mate.png": "/static/media/Cycle-Mate.0e60170863e807ec6380.png",
     "static/media/Bicycle-Bandits.png": "/static/media/Bicycle-Bandits.f96ede20851aa2006b77.png",
     "index.html": "/index.html",
-    "main.a5252996.css.map": "/static/css/main.a5252996.css.map",
+    "main.9ae65821.css.map": "/static/css/main.9ae65821.css.map",
     "main.1fbc6e97.js.map": "/static/js/main.1fbc6e97.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5252996.css",
+    "static/css/main.9ae65821.css",
     "static/js/main.1fbc6e97.js"
   ]
 }
