@@ -45,8 +45,10 @@
 @media screen and (max-width: 800px) {
   .projectCard {
     width: 94vw;
+    max-width: 400px;
   }
   .projectBanner {
     width: 94vw;
+    max-width: 400px;
   }
 }
