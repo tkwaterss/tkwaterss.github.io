@@ -6,7 +6,6 @@
   }
   
   header {
-    width: 100vw;
     background-color: #F2F2F2;
     height: 60px;
     color: #050726;
@@ -60,7 +59,7 @@
     border: solid;
   }
   nav {
-    height: 65px;
+    height: 60px;
   }
   .menuToggle {
     display: flex;
@@ -71,6 +70,7 @@
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
+    width:fit-content;
   }
   .menuToggle input {
     display: flex;
@@ -122,7 +122,7 @@
     list-style: none;
     position: absolute;
     font-size: 1.5em;
-    width: 240px;
+    width: 180px;
     height: 400px;
     box-shadow: 0 0 10px #85888C;
     margin: -50px 0 0 -50px;

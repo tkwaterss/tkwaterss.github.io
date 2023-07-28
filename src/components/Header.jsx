@@ -2,7 +2,8 @@ import React from "react";
 import classes from "./Header.module.css";
 import { NavLink } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
+  const { checked, setChecked } = props;
   const activeStyle = ({ isActive }) => {
     return {
       color: isActive ? "#313628" : "",
@@ -10,11 +11,17 @@ const Header = () => {
       fontWeight: isActive ? "bold" : "",
     };
   };
+
   return (
     <header>
       <nav role="navigation">
         <div className={classes.menuToggle}>
-          <input  className={classes.mobileMenu}type="checkbox" />
+          <input
+            className={classes.mobileMenu}
+            type="checkbox"
+            checked={checked}
+            onChange={e => setChecked(e.target.checked)}
+          />
           <span className={classes.mobileMenu}></span>
           <span className={classes.mobileMenu}></span>
           <span className={classes.mobileMenu}></span>
