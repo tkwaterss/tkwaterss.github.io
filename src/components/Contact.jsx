@@ -15,9 +15,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log(form.current);
-    console.log(apiKey, templateId, serviceId);
-
     emailjs
       .sendForm(
         serviceId,
