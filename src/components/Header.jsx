@@ -26,27 +26,27 @@ const Header = (props) => {
           <span className={classes.mobileMenu}></span>
           <span className={classes.mobileMenu}></span>
           <ul className={classes.navContainer}>
-            <li>
+            <li onClick={() => setChecked(false)}>
               <NavLink style={activeStyle} to="/">
                 Home
               </NavLink>
             </li>
-            <li>
+            <li onClick={() => setChecked(false)}>
               <NavLink style={activeStyle} to="/projects">
                 Projects
               </NavLink>
             </li>
-            <li>
+            <li onClick={() => setChecked(false)}>
               <NavLink style={activeStyle} to="/about">
                 About
               </NavLink>
             </li>
-            <li>
+            <li onClick={() => setChecked(false)}>
               <NavLink style={activeStyle} to="/skills">
                 Skills
               </NavLink>
             </li>
-            <li>
+            <li onClick={() => setChecked(false)}>
               <NavLink style={activeStyle} to="/contact">
                 Contact
               </NavLink>

@@ -1,3 +1,15 @@
+@keyframes slideInBottomAnimation {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.section {
+  animation: 1s ease 0s 1 slideInBottomAnimation;
+}
+
 /** Desktop Styling */
 
 @media screen and (min-width: 800px) {
