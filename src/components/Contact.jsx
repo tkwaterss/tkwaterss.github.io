@@ -5,6 +5,10 @@ import Input from "./UI/Input";
 import Button from "./UI/Button";
 import Textarea from "./UI/Textarea";
 
+const serviceId = process.env.REACT_APP_SERVICE_ID;
+const templateId = process.env.REACT_APP_TEMPLATE_ID;
+const apiKey = process.env.REACT_APP_API_KEY;
+
 const Contact = () => {
   const form = useRef();
 
@@ -12,13 +16,14 @@ const Contact = () => {
     e.preventDefault();
 
     console.log(form.current);
+    console.log(apiKey, templateId, serviceId);
 
     emailjs
       .sendForm(
-        "service_gcj6yvf",
-        "template_do4wmsu",
+        serviceId,
+        templateId,
         form.current,
-        "5Hju5b7xfMYzzMOAA"
+        apiKey
       )
       .then(
         (result) => {
