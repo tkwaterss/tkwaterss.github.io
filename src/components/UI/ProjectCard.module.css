@@ -9,6 +9,7 @@
   height: 160px;
   width: 400px;
   border-radius: 4px 4px 0 0;
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.4);
 }
 .projectCard h3 {
   font-size: 1.5em;
@@ -38,6 +39,7 @@
 .linksBtn {
   padding: 10px 20px;
   font-size: 1em;
+  min-width: 100px;
 }
 
 /** Mobile Styling */

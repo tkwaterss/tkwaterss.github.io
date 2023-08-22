@@ -3,6 +3,7 @@ import classes from "./Projects.module.css";
 import ProjectCard from "./UI/ProjectCard";
 import cycleMate from "../images/Cycle-Mate.png";
 import bicycleBandits from "../images/Bicycle-Bandits.png";
+import techshed from "../images/techshed.png"
 
 const Projects = () => {
   return (
@@ -16,6 +17,14 @@ const Projects = () => {
         demoURL="https://www.youtube.com/watch?v=Rw1oUMVaRDo&ab_channel=TobinWaters"
         appURL="https://bicycle-bandits.herokuapp.com/"
         gitHubURL="https://github.com/tkwaterss/Bicycle_Bandits"
+      ></ProjectCard>
+
+      <ProjectCard
+        src={techshed}
+        projectTitle="Tech Shed | Group Project"
+        projectDescription="Collaborated with a dynamic engineering team focused on crafting a tailored career resource for students and entry-level developers. Tech Shed provides prospective developers a resource for navigating and excelling in coding bootcamps."
+        frontEnd={["React | ", "Next.js | ", "Typescript | ", "Tailwind CSS"]}
+        appURL="https://thetechshed.org/"
       ></ProjectCard>
 
       <ProjectCard
